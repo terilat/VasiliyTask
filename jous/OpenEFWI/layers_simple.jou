@@ -1,0 +1,61 @@
+reset
+set default element hex
+create surface rectangle width 350 height 350 yplane
+move Surface 1  x 0 y 0 z 175 include_merged 
+
+webcut body 1  with plane xplane 
+webcut body 1 2  with plane zplane offset 175
+
+surface all size 5
+mesh surface all
+imprint all
+merge all
+
+set node constraint off
+
+create material 1
+modify material 1 name 'mat1'
+modify material 1 set property 'DENSITY' value 1000
+#modify material 1 set property 'VP' value 1524
+#modify material 1 set property 'VS' value 822.1029663085938
+modify material 1 set property 'MODULUS' value 1e+08
+modify material 1 set property 'POISSON' value 0.2
+
+create material 2
+modify material 2 name 'mat2'
+modify material 2 set property 'DENSITY' value 1000
+#modify material 2 set property 'VP' value 2950.0
+#modify material 2 set property 'VS' value 1591.341064453125
+modify material 2 set property 'MODULUS' value 1e+08
+modify material 2 set property 'POISSON' value 0.2
+
+set duplicate block elements off
+block 1 add surface 5 7
+block 1 name 'Layer1'
+block 1 material 1
+block 1 element plane order 3
+
+set duplicate block elements off
+block 2 add surface 4 6
+block 2 name 'Layer2'
+block 2 material 2
+block 2 element plane order 3
+
+#create absorption on curve 9 22 34 46 58 70 82 94 106 102 10 6 97 99 87 75 63 51 39 27 7 15 
+
+create force on vertex 5 force value 1 direction 0 0 1
+#bcdep force 1 value 'berlage(1e+8, 15, time)'
+#bcdep force 1 value 'ricker(1e+08, 15, 0, time)'
+create formula 1 'ricker(1e+08, 15, 0, time)'
+modify force 1 dof 3 formula 1
+
+#create receiver on curve 11 17 displacement 1 0 1
+#create receiver on curve 11 17 velocity 1 0 1
+#create receiver on curve 11 17 acceleration 1 0 1
+
+analysis type dynamic elasticity dim2 planestrain preload off
+dynamic method full_solution scheme explicit maxtime 1 maxsteps 150000
+output nodalforce off energy off record3d on log on vtu on material off results everystep 300
+
+calculation start path 'B:\ELfimov\Dissertation\exps\OpenEFWI\layers_8_5_5\output.pvd'
+
