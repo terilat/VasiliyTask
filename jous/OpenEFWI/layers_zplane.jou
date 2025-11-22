@@ -144,7 +144,7 @@ create receiver on curve 11 17 acceleration 1 1 0
 
 analysis type dynamic elasticity dim2 planestrain preload off
 dynamic method full_solution scheme explicit maxtime 1 maxsteps 150000
-output nodalforce off energy off record3d on log on vtu on material off results everystep 300
+output nodalforce off energy off record3d on log on vtu on material off results everystep 600
 
 calculation start path 'B:\ELfimov\Dissertation\exps\OpenEFWI\layers_zplane_5_5\output.pvd'
 
