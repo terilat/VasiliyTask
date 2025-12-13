@@ -121,7 +121,7 @@ create absorption on curve 22 34 46 58 70 82 94 106 102 10 6 97 99 87 75 63 51 3
 # modify velocity 1 dof 2 formula 1
 create displacement on vertex 10 
 # create formula 1 'ricker(-1, 15, 0.033333, time)'
-create formula 1 'ricker(0.026241398104838505, 15, 0.057, time)'
+create formula 1 'ricker(0.026241398104838505, 15, -0.057, time)'
 modify displacement 1 dof 2 formula 1
 create receiver on curve 11 17 displacement 1 1 0 output everystep 5
 create receiver on curve 11 17 velocity 1 1 0 output everystep 5
@@ -134,7 +134,7 @@ calculation start path 'B:\\ELfimov\\Dissertation\\exps\\OpenEFWI\\layers_zplane
 
 Available RAM is set to 100% (130909 Mb)
 Available CPU is set to 100% (12 threads)
-Calculation started at 2025-12-9 00:39:49
+Calculation started at 2025-12-9 12:10:42
 Using 12 CPU threads of 12 available.
 Step      1. Time 0.00003381. Time step 3.38054308e-05. Done. Successfully.
 Step      2. Time 0.00006761. Time step 3.38054308e-05. Done. Successfully.
@@ -29720,7 +29720,7 @@ Step  29581. Time 0.99999845. Time step 3.38054308e-05. Done. Successfully.
 Step  29582. Time 1.00000000. Time step 1.55139982e-06. Done. Successfully.
 Case 1. Done. Successfully.
 Calculation has finished successfully.
-Peak memory (RAM) consumption is: 432.55859375 MB
-Used disk space is: 3522.44614029 MB
-Calculation time is: 3497 seconds (0 hours 58 min. 17 sec.)
-Calculation finished successfully at 2025-12-9 01:38:07
+Peak memory (RAM) consumption is: 433.31640625 MB
+Used disk space is: 3517.74493027 MB
+Calculation time is: 3383 seconds (0 hours 56 min. 23 sec.)
+Calculation finished successfully at 2025-12-9 13:07:06
