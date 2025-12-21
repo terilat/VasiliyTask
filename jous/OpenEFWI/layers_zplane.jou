@@ -4,7 +4,7 @@ create surface rectangle width 350 height 350 zplane
 move Surface 1  x 0 y -175 z 0 include_merged 
 
 webcut body 1  with plane xplane 
-webcut body 1 2  with plane yplane offset -15
+webcut body 1 2  with plane yplane offset -5
 webcut body 1 2  with plane yplane offset -50 
 webcut body 1 2  with plane yplane offset -120 
 webcut body 1 2  with plane yplane offset -140 
@@ -84,6 +84,1735 @@ modify material 8 set property 'VS' value 2205.22119140625
 #modify material 8 set property 'MODULUS' value 1e+08
 #modify material 8 set property 'POISSON' value 0.2
 
+create table 1
+modify table 1 dependency x
+modify table 1 insert row 1
+modify table 1 cell 1 1 value -175
+modify table 1 cell 1 2 value 116.971
+modify table 1 insert row 2
+modify table 1 cell 2 1 value -170
+modify table 1 cell 2 2 value 102.951
+modify table 1 insert row 3
+modify table 1 cell 3 1 value -165
+modify table 1 cell 3 2 value 90.098
+modify table 1 insert row 4
+modify table 1 cell 4 1 value -160
+modify table 1 cell 4 2 value 78.362
+modify table 1 insert row 5
+modify table 1 cell 5 1 value -155
+modify table 1 cell 5 2 value 67.692
+modify table 1 insert row 6
+modify table 1 cell 6 1 value -150
+modify table 1 cell 6 2 value 58.037
+modify table 1 insert row 7
+modify table 1 cell 7 1 value -145
+modify table 1 cell 7 2 value 49.347
+modify table 1 insert row 8
+modify table 1 cell 8 1 value -140
+modify table 1 cell 8 2 value 41.571
+modify table 1 insert row 9
+modify table 1 cell 9 1 value -135
+modify table 1 cell 9 2 value 34.658
+modify table 1 insert row 10
+modify table 1 cell 10 1 value -130
+modify table 1 cell 10 2 value 28.557
+modify table 1 insert row 11
+modify table 1 cell 11 1 value -125
+modify table 1 cell 11 2 value 23.218
+modify table 1 insert row 12
+modify table 1 cell 12 1 value -120
+modify table 1 cell 12 2 value 18.590
+modify table 1 insert row 13
+modify table 1 cell 13 1 value -115
+modify table 1 cell 13 2 value 14.621
+modify table 1 insert row 14
+modify table 1 cell 14 1 value -110
+modify table 1 cell 14 2 value 11.262
+modify table 1 insert row 15
+modify table 1 cell 15 1 value -105
+modify table 1 cell 15 2 value 8.461
+modify table 1 insert row 16
+modify table 1 cell 16 1 value -100
+modify table 1 cell 16 2 value 6.168
+modify table 1 insert row 17
+modify table 1 cell 17 1 value -95
+modify table 1 cell 17 2 value 4.332
+modify table 1 insert row 18
+modify table 1 cell 18 1 value -90
+modify table 1 cell 18 2 value 2.902
+modify table 1 insert row 19
+modify table 1 cell 19 1 value -85
+modify table 1 cell 19 2 value 1.828
+modify table 1 insert row 20
+modify table 1 cell 20 1 value -80
+modify table 1 cell 20 2 value 1.058
+modify table 1 insert row 21
+modify table 1 cell 21 1 value -75
+modify table 1 cell 21 2 value 0.542
+modify table 1 insert row 22
+modify table 1 cell 22 1 value -70
+modify table 1 cell 22 2 value 0.228
+modify table 1 insert row 23
+modify table 1 cell 23 1 value -65
+modify table 1 cell 23 2 value 0.068
+modify table 1 insert row 24
+modify table 1 cell 24 1 value -60
+modify table 1 cell 24 2 value 0.008
+modify table 1 insert row 25
+modify table 1 cell 25 1 value -55
+modify table 1 cell 25 2 value 0.000
+modify table 1 insert row 26
+modify table 1 cell 26 1 value -50
+modify table 1 cell 26 2 value 0
+modify table 1 insert row 27
+modify table 1 cell 27 1 value -45
+modify table 1 cell 27 2 value 0
+modify table 1 insert row 28
+modify table 1 cell 28 1 value -40
+modify table 1 cell 28 2 value 0
+modify table 1 insert row 29
+modify table 1 cell 29 1 value -35
+modify table 1 cell 29 2 value 0
+modify table 1 insert row 30
+modify table 1 cell 30 1 value -30
+modify table 1 cell 30 2 value 0
+modify table 1 insert row 31
+modify table 1 cell 31 1 value -25
+modify table 1 cell 31 2 value 0
+modify table 1 insert row 32
+modify table 1 cell 32 1 value -20
+modify table 1 cell 32 2 value 0
+modify table 1 insert row 33
+modify table 1 cell 33 1 value -15
+modify table 1 cell 33 2 value 0
+modify table 1 insert row 34
+modify table 1 cell 34 1 value -10
+modify table 1 cell 34 2 value 0
+modify table 1 insert row 35
+modify table 1 cell 35 1 value -5
+modify table 1 cell 35 2 value 0
+modify table 1 insert row 36
+modify table 1 cell 36 1 value 0
+modify table 1 cell 36 2 value 0
+modify table 1 insert row 37
+modify table 1 cell 37 1 value 5
+modify table 1 cell 37 2 value 0
+modify table 1 insert row 38
+modify table 1 cell 38 1 value 10
+modify table 1 cell 38 2 value 0
+modify table 1 insert row 39
+modify table 1 cell 39 1 value 15
+modify table 1 cell 39 2 value 0
+modify table 1 insert row 40
+modify table 1 cell 40 1 value 20
+modify table 1 cell 40 2 value 0
+modify table 1 insert row 41
+modify table 1 cell 41 1 value 25
+modify table 1 cell 41 2 value 0
+modify table 1 insert row 42
+modify table 1 cell 42 1 value 30
+modify table 1 cell 42 2 value 0
+modify table 1 insert row 43
+modify table 1 cell 43 1 value 35
+modify table 1 cell 43 2 value 0
+modify table 1 insert row 44
+modify table 1 cell 44 1 value 40
+modify table 1 cell 44 2 value 0
+modify table 1 insert row 45
+modify table 1 cell 45 1 value 45
+modify table 1 cell 45 2 value 0
+modify table 1 insert row 46
+modify table 1 cell 46 1 value 50
+modify table 1 cell 46 2 value 0
+modify table 1 insert row 47
+modify table 1 cell 47 1 value 55
+modify table 1 cell 47 2 value 0.000
+modify table 1 insert row 48
+modify table 1 cell 48 1 value 60
+modify table 1 cell 48 2 value 0.008
+modify table 1 insert row 49
+modify table 1 cell 49 1 value 65
+modify table 1 cell 49 2 value 0.068
+modify table 1 insert row 50
+modify table 1 cell 50 1 value 70
+modify table 1 cell 50 2 value 0.228
+modify table 1 insert row 51
+modify table 1 cell 51 1 value 75
+modify table 1 cell 51 2 value 0.542
+modify table 1 insert row 52
+modify table 1 cell 52 1 value 80
+modify table 1 cell 52 2 value 1.058
+modify table 1 insert row 53
+modify table 1 cell 53 1 value 85
+modify table 1 cell 53 2 value 1.828
+modify table 1 insert row 54
+modify table 1 cell 54 1 value 90
+modify table 1 cell 54 2 value 2.902
+modify table 1 insert row 55
+modify table 1 cell 55 1 value 95
+modify table 1 cell 55 2 value 4.332
+modify table 1 insert row 56
+modify table 1 cell 56 1 value 100
+modify table 1 cell 56 2 value 6.168
+modify table 1 insert row 57
+modify table 1 cell 57 1 value 105
+modify table 1 cell 57 2 value 8.461
+modify table 1 insert row 58
+modify table 1 cell 58 1 value 110
+modify table 1 cell 58 2 value 11.262
+modify table 1 insert row 59
+modify table 1 cell 59 1 value 115
+modify table 1 cell 59 2 value 14.621
+modify table 1 insert row 60
+modify table 1 cell 60 1 value 120
+modify table 1 cell 60 2 value 18.590
+modify table 1 insert row 61
+modify table 1 cell 61 1 value 125
+modify table 1 cell 61 2 value 23.218
+modify table 1 insert row 62
+modify table 1 cell 62 1 value 130
+modify table 1 cell 62 2 value 28.557
+modify table 1 insert row 63
+modify table 1 cell 63 1 value 135
+modify table 1 cell 63 2 value 34.658
+modify table 1 insert row 64
+modify table 1 cell 64 1 value 140
+modify table 1 cell 64 2 value 41.571
+modify table 1 insert row 65
+modify table 1 cell 65 1 value 145
+modify table 1 cell 65 2 value 49.347
+modify table 1 insert row 66
+modify table 1 cell 66 1 value 150
+modify table 1 cell 66 2 value 58.037
+modify table 1 insert row 67
+modify table 1 cell 67 1 value 155
+modify table 1 cell 67 2 value 67.692
+modify table 1 insert row 68
+modify table 1 cell 68 1 value 160
+modify table 1 cell 68 2 value 78.362
+modify table 1 insert row 69
+modify table 1 cell 69 1 value 165
+modify table 1 cell 69 2 value 90.098
+modify table 1 insert row 70
+modify table 1 cell 70 1 value 170
+modify table 1 cell 70 2 value 102.951
+modify table 1 insert row 71
+modify table 1 cell 71 1 value 175
+modify table 1 cell 71 2 value 116.971
+modify material 1 set property 'MASS_MATRIX_DAMPING' table 1
+create table 2
+modify table 2 dependency x
+modify table 2 insert row 1
+modify table 2 cell 1 1 value -175
+modify table 2 cell 1 2 value 226.421
+modify table 2 insert row 2
+modify table 2 cell 2 1 value -170
+modify table 2 cell 2 2 value 199.281
+modify table 2 insert row 3
+modify table 2 cell 3 1 value -165
+modify table 2 cell 3 2 value 174.402
+modify table 2 insert row 4
+modify table 2 cell 4 1 value -160
+modify table 2 cell 4 2 value 151.684
+modify table 2 insert row 5
+modify table 2 cell 5 1 value -155
+modify table 2 cell 5 2 value 131.031
+modify table 2 insert row 6
+modify table 2 cell 6 1 value -150
+modify table 2 cell 6 2 value 112.342
+modify table 2 insert row 7
+modify table 2 cell 7 1 value -145
+modify table 2 cell 7 2 value 95.521
+modify table 2 insert row 8
+modify table 2 cell 8 1 value -140
+modify table 2 cell 8 2 value 80.469
+modify table 2 insert row 9
+modify table 2 cell 9 1 value -135
+modify table 2 cell 9 2 value 67.088
+modify table 2 insert row 10
+modify table 2 cell 10 1 value -130
+modify table 2 cell 10 2 value 55.279
+modify table 2 insert row 11
+modify table 2 cell 11 1 value -125
+modify table 2 cell 11 2 value 44.943
+modify table 2 insert row 12
+modify table 2 cell 12 1 value -120
+modify table 2 cell 12 2 value 35.984
+modify table 2 insert row 13
+modify table 2 cell 13 1 value -115
+modify table 2 cell 13 2 value 28.303
+modify table 2 insert row 14
+modify table 2 cell 14 1 value -110
+modify table 2 cell 14 2 value 21.800
+modify table 2 insert row 15
+modify table 2 cell 15 1 value -105
+modify table 2 cell 15 2 value 16.379
+modify table 2 insert row 16
+modify table 2 cell 16 1 value -100
+modify table 2 cell 16 2 value 11.940
+modify table 2 insert row 17
+modify table 2 cell 17 1 value -95
+modify table 2 cell 17 2 value 8.386
+modify table 2 insert row 18
+modify table 2 cell 18 1 value -90
+modify table 2 cell 18 2 value 5.618
+modify table 2 insert row 19
+modify table 2 cell 19 1 value -85
+modify table 2 cell 19 2 value 3.538
+modify table 2 insert row 20
+modify table 2 cell 20 1 value -80
+modify table 2 cell 20 2 value 2.047
+modify table 2 insert row 21
+modify table 2 cell 21 1 value -75
+modify table 2 cell 21 2 value 1.048
+modify table 2 insert row 22
+modify table 2 cell 22 1 value -70
+modify table 2 cell 22 2 value 0.442
+modify table 2 insert row 23
+modify table 2 cell 23 1 value -65
+modify table 2 cell 23 2 value 0.131
+modify table 2 insert row 24
+modify table 2 cell 24 1 value -60
+modify table 2 cell 24 2 value 0.016
+modify table 2 insert row 25
+modify table 2 cell 25 1 value -55
+modify table 2 cell 25 2 value 0.000
+modify table 2 insert row 26
+modify table 2 cell 26 1 value -50
+modify table 2 cell 26 2 value 0
+modify table 2 insert row 27
+modify table 2 cell 27 1 value -45
+modify table 2 cell 27 2 value 0
+modify table 2 insert row 28
+modify table 2 cell 28 1 value -40
+modify table 2 cell 28 2 value 0
+modify table 2 insert row 29
+modify table 2 cell 29 1 value -35
+modify table 2 cell 29 2 value 0
+modify table 2 insert row 30
+modify table 2 cell 30 1 value -30
+modify table 2 cell 30 2 value 0
+modify table 2 insert row 31
+modify table 2 cell 31 1 value -25
+modify table 2 cell 31 2 value 0
+modify table 2 insert row 32
+modify table 2 cell 32 1 value -20
+modify table 2 cell 32 2 value 0
+modify table 2 insert row 33
+modify table 2 cell 33 1 value -15
+modify table 2 cell 33 2 value 0
+modify table 2 insert row 34
+modify table 2 cell 34 1 value -10
+modify table 2 cell 34 2 value 0
+modify table 2 insert row 35
+modify table 2 cell 35 1 value -5
+modify table 2 cell 35 2 value 0
+modify table 2 insert row 36
+modify table 2 cell 36 1 value 0
+modify table 2 cell 36 2 value 0
+modify table 2 insert row 37
+modify table 2 cell 37 1 value 5
+modify table 2 cell 37 2 value 0
+modify table 2 insert row 38
+modify table 2 cell 38 1 value 10
+modify table 2 cell 38 2 value 0
+modify table 2 insert row 39
+modify table 2 cell 39 1 value 15
+modify table 2 cell 39 2 value 0
+modify table 2 insert row 40
+modify table 2 cell 40 1 value 20
+modify table 2 cell 40 2 value 0
+modify table 2 insert row 41
+modify table 2 cell 41 1 value 25
+modify table 2 cell 41 2 value 0
+modify table 2 insert row 42
+modify table 2 cell 42 1 value 30
+modify table 2 cell 42 2 value 0
+modify table 2 insert row 43
+modify table 2 cell 43 1 value 35
+modify table 2 cell 43 2 value 0
+modify table 2 insert row 44
+modify table 2 cell 44 1 value 40
+modify table 2 cell 44 2 value 0
+modify table 2 insert row 45
+modify table 2 cell 45 1 value 45
+modify table 2 cell 45 2 value 0
+modify table 2 insert row 46
+modify table 2 cell 46 1 value 50
+modify table 2 cell 46 2 value 0
+modify table 2 insert row 47
+modify table 2 cell 47 1 value 55
+modify table 2 cell 47 2 value 0.000
+modify table 2 insert row 48
+modify table 2 cell 48 1 value 60
+modify table 2 cell 48 2 value 0.016
+modify table 2 insert row 49
+modify table 2 cell 49 1 value 65
+modify table 2 cell 49 2 value 0.131
+modify table 2 insert row 50
+modify table 2 cell 50 1 value 70
+modify table 2 cell 50 2 value 0.442
+modify table 2 insert row 51
+modify table 2 cell 51 1 value 75
+modify table 2 cell 51 2 value 1.048
+modify table 2 insert row 52
+modify table 2 cell 52 1 value 80
+modify table 2 cell 52 2 value 2.047
+modify table 2 insert row 53
+modify table 2 cell 53 1 value 85
+modify table 2 cell 53 2 value 3.538
+modify table 2 insert row 54
+modify table 2 cell 54 1 value 90
+modify table 2 cell 54 2 value 5.618
+modify table 2 insert row 55
+modify table 2 cell 55 1 value 95
+modify table 2 cell 55 2 value 8.386
+modify table 2 insert row 56
+modify table 2 cell 56 1 value 100
+modify table 2 cell 56 2 value 11.940
+modify table 2 insert row 57
+modify table 2 cell 57 1 value 105
+modify table 2 cell 57 2 value 16.379
+modify table 2 insert row 58
+modify table 2 cell 58 1 value 110
+modify table 2 cell 58 2 value 21.800
+modify table 2 insert row 59
+modify table 2 cell 59 1 value 115
+modify table 2 cell 59 2 value 28.303
+modify table 2 insert row 60
+modify table 2 cell 60 1 value 120
+modify table 2 cell 60 2 value 35.984
+modify table 2 insert row 61
+modify table 2 cell 61 1 value 125
+modify table 2 cell 61 2 value 44.943
+modify table 2 insert row 62
+modify table 2 cell 62 1 value 130
+modify table 2 cell 62 2 value 55.279
+modify table 2 insert row 63
+modify table 2 cell 63 1 value 135
+modify table 2 cell 63 2 value 67.088
+modify table 2 insert row 64
+modify table 2 cell 64 1 value 140
+modify table 2 cell 64 2 value 80.469
+modify table 2 insert row 65
+modify table 2 cell 65 1 value 145
+modify table 2 cell 65 2 value 95.521
+modify table 2 insert row 66
+modify table 2 cell 66 1 value 150
+modify table 2 cell 66 2 value 112.342
+modify table 2 insert row 67
+modify table 2 cell 67 1 value 155
+modify table 2 cell 67 2 value 131.031
+modify table 2 insert row 68
+modify table 2 cell 68 1 value 160
+modify table 2 cell 68 2 value 151.684
+modify table 2 insert row 69
+modify table 2 cell 69 1 value 165
+modify table 2 cell 69 2 value 174.402
+modify table 2 insert row 70
+modify table 2 cell 70 1 value 170
+modify table 2 cell 70 2 value 199.281
+modify table 2 insert row 71
+modify table 2 cell 71 1 value 175
+modify table 2 cell 71 2 value 226.421
+modify material 2 set property 'MASS_MATRIX_DAMPING' table 2
+create table 3
+modify table 3 dependency x
+modify table 3 insert row 1
+modify table 3 cell 1 1 value -175
+modify table 3 cell 1 2 value 237.934
+modify table 3 insert row 2
+modify table 3 cell 2 1 value -170
+modify table 3 cell 2 2 value 209.414
+modify table 3 insert row 3
+modify table 3 cell 3 1 value -165
+modify table 3 cell 3 2 value 183.270
+modify table 3 insert row 4
+modify table 3 cell 4 1 value -160
+modify table 3 cell 4 2 value 159.397
+modify table 3 insert row 5
+modify table 3 cell 5 1 value -155
+modify table 3 cell 5 2 value 137.693
+modify table 3 insert row 6
+modify table 3 cell 6 1 value -150
+modify table 3 cell 6 2 value 118.055
+modify table 3 insert row 7
+modify table 3 cell 7 1 value -145
+modify table 3 cell 7 2 value 100.378
+modify table 3 insert row 8
+modify table 3 cell 8 1 value -140
+modify table 3 cell 8 2 value 84.561
+modify table 3 insert row 9
+modify table 3 cell 9 1 value -135
+modify table 3 cell 9 2 value 70.499
+modify table 3 insert row 10
+modify table 3 cell 10 1 value -130
+modify table 3 cell 10 2 value 58.089
+modify table 3 insert row 11
+modify table 3 cell 11 1 value -125
+modify table 3 cell 11 2 value 47.229
+modify table 3 insert row 12
+modify table 3 cell 12 1 value -120
+modify table 3 cell 12 2 value 37.814
+modify table 3 insert row 13
+modify table 3 cell 13 1 value -115
+modify table 3 cell 13 2 value 29.742
+modify table 3 insert row 14
+modify table 3 cell 14 1 value -110
+modify table 3 cell 14 2 value 22.909
+modify table 3 insert row 15
+modify table 3 cell 15 1 value -105
+modify table 3 cell 15 2 value 17.212
+modify table 3 insert row 16
+modify table 3 cell 16 1 value -100
+modify table 3 cell 16 2 value 12.547
+modify table 3 insert row 17
+modify table 3 cell 17 1 value -95
+modify table 3 cell 17 2 value 8.812
+modify table 3 insert row 18
+modify table 3 cell 18 1 value -90
+modify table 3 cell 18 2 value 5.904
+modify table 3 insert row 19
+modify table 3 cell 19 1 value -85
+modify table 3 cell 19 2 value 3.718
+modify table 3 insert row 20
+modify table 3 cell 20 1 value -80
+modify table 3 cell 20 2 value 2.151
+modify table 3 insert row 21
+modify table 3 cell 21 1 value -75
+modify table 3 cell 21 2 value 1.102
+modify table 3 insert row 22
+modify table 3 cell 22 1 value -70
+modify table 3 cell 22 2 value 0.465
+modify table 3 insert row 23
+modify table 3 cell 23 1 value -65
+modify table 3 cell 23 2 value 0.138
+modify table 3 insert row 24
+modify table 3 cell 24 1 value -60
+modify table 3 cell 24 2 value 0.017
+modify table 3 insert row 25
+modify table 3 cell 25 1 value -55
+modify table 3 cell 25 2 value 0.000
+modify table 3 insert row 26
+modify table 3 cell 26 1 value -50
+modify table 3 cell 26 2 value 0
+modify table 3 insert row 27
+modify table 3 cell 27 1 value -45
+modify table 3 cell 27 2 value 0
+modify table 3 insert row 28
+modify table 3 cell 28 1 value -40
+modify table 3 cell 28 2 value 0
+modify table 3 insert row 29
+modify table 3 cell 29 1 value -35
+modify table 3 cell 29 2 value 0
+modify table 3 insert row 30
+modify table 3 cell 30 1 value -30
+modify table 3 cell 30 2 value 0
+modify table 3 insert row 31
+modify table 3 cell 31 1 value -25
+modify table 3 cell 31 2 value 0
+modify table 3 insert row 32
+modify table 3 cell 32 1 value -20
+modify table 3 cell 32 2 value 0
+modify table 3 insert row 33
+modify table 3 cell 33 1 value -15
+modify table 3 cell 33 2 value 0
+modify table 3 insert row 34
+modify table 3 cell 34 1 value -10
+modify table 3 cell 34 2 value 0
+modify table 3 insert row 35
+modify table 3 cell 35 1 value -5
+modify table 3 cell 35 2 value 0
+modify table 3 insert row 36
+modify table 3 cell 36 1 value 0
+modify table 3 cell 36 2 value 0
+modify table 3 insert row 37
+modify table 3 cell 37 1 value 5
+modify table 3 cell 37 2 value 0
+modify table 3 insert row 38
+modify table 3 cell 38 1 value 10
+modify table 3 cell 38 2 value 0
+modify table 3 insert row 39
+modify table 3 cell 39 1 value 15
+modify table 3 cell 39 2 value 0
+modify table 3 insert row 40
+modify table 3 cell 40 1 value 20
+modify table 3 cell 40 2 value 0
+modify table 3 insert row 41
+modify table 3 cell 41 1 value 25
+modify table 3 cell 41 2 value 0
+modify table 3 insert row 42
+modify table 3 cell 42 1 value 30
+modify table 3 cell 42 2 value 0
+modify table 3 insert row 43
+modify table 3 cell 43 1 value 35
+modify table 3 cell 43 2 value 0
+modify table 3 insert row 44
+modify table 3 cell 44 1 value 40
+modify table 3 cell 44 2 value 0
+modify table 3 insert row 45
+modify table 3 cell 45 1 value 45
+modify table 3 cell 45 2 value 0
+modify table 3 insert row 46
+modify table 3 cell 46 1 value 50
+modify table 3 cell 46 2 value 0
+modify table 3 insert row 47
+modify table 3 cell 47 1 value 55
+modify table 3 cell 47 2 value 0.000
+modify table 3 insert row 48
+modify table 3 cell 48 1 value 60
+modify table 3 cell 48 2 value 0.017
+modify table 3 insert row 49
+modify table 3 cell 49 1 value 65
+modify table 3 cell 49 2 value 0.138
+modify table 3 insert row 50
+modify table 3 cell 50 1 value 70
+modify table 3 cell 50 2 value 0.465
+modify table 3 insert row 51
+modify table 3 cell 51 1 value 75
+modify table 3 cell 51 2 value 1.102
+modify table 3 insert row 52
+modify table 3 cell 52 1 value 80
+modify table 3 cell 52 2 value 2.151
+modify table 3 insert row 53
+modify table 3 cell 53 1 value 85
+modify table 3 cell 53 2 value 3.718
+modify table 3 insert row 54
+modify table 3 cell 54 1 value 90
+modify table 3 cell 54 2 value 5.904
+modify table 3 insert row 55
+modify table 3 cell 55 1 value 95
+modify table 3 cell 55 2 value 8.812
+modify table 3 insert row 56
+modify table 3 cell 56 1 value 100
+modify table 3 cell 56 2 value 12.547
+modify table 3 insert row 57
+modify table 3 cell 57 1 value 105
+modify table 3 cell 57 2 value 17.212
+modify table 3 insert row 58
+modify table 3 cell 58 1 value 110
+modify table 3 cell 58 2 value 22.909
+modify table 3 insert row 59
+modify table 3 cell 59 1 value 115
+modify table 3 cell 59 2 value 29.742
+modify table 3 insert row 60
+modify table 3 cell 60 1 value 120
+modify table 3 cell 60 2 value 37.814
+modify table 3 insert row 61
+modify table 3 cell 61 1 value 125
+modify table 3 cell 61 2 value 47.229
+modify table 3 insert row 62
+modify table 3 cell 62 1 value 130
+modify table 3 cell 62 2 value 58.089
+modify table 3 insert row 63
+modify table 3 cell 63 1 value 135
+modify table 3 cell 63 2 value 70.499
+modify table 3 insert row 64
+modify table 3 cell 64 1 value 140
+modify table 3 cell 64 2 value 84.561
+modify table 3 insert row 65
+modify table 3 cell 65 1 value 145
+modify table 3 cell 65 2 value 100.378
+modify table 3 insert row 66
+modify table 3 cell 66 1 value 150
+modify table 3 cell 66 2 value 118.055
+modify table 3 insert row 67
+modify table 3 cell 67 1 value 155
+modify table 3 cell 67 2 value 137.693
+modify table 3 insert row 68
+modify table 3 cell 68 1 value 160
+modify table 3 cell 68 2 value 159.397
+modify table 3 insert row 69
+modify table 3 cell 69 1 value 165
+modify table 3 cell 69 2 value 183.270
+modify table 3 insert row 70
+modify table 3 cell 70 1 value 170
+modify table 3 cell 70 2 value 209.414
+modify table 3 insert row 71
+modify table 3 cell 71 1 value 175
+modify table 3 cell 71 2 value 237.934
+modify material 3 set property 'MASS_MATRIX_DAMPING' table 3
+create table 4
+modify table 4 dependency x
+modify table 4 insert row 1
+modify table 4 cell 1 1 value -175
+modify table 4 cell 1 2 value 237.934
+modify table 4 insert row 2
+modify table 4 cell 2 1 value -170
+modify table 4 cell 2 2 value 209.414
+modify table 4 insert row 3
+modify table 4 cell 3 1 value -165
+modify table 4 cell 3 2 value 183.270
+modify table 4 insert row 4
+modify table 4 cell 4 1 value -160
+modify table 4 cell 4 2 value 159.397
+modify table 4 insert row 5
+modify table 4 cell 5 1 value -155
+modify table 4 cell 5 2 value 137.693
+modify table 4 insert row 6
+modify table 4 cell 6 1 value -150
+modify table 4 cell 6 2 value 118.055
+modify table 4 insert row 7
+modify table 4 cell 7 1 value -145
+modify table 4 cell 7 2 value 100.378
+modify table 4 insert row 8
+modify table 4 cell 8 1 value -140
+modify table 4 cell 8 2 value 84.561
+modify table 4 insert row 9
+modify table 4 cell 9 1 value -135
+modify table 4 cell 9 2 value 70.499
+modify table 4 insert row 10
+modify table 4 cell 10 1 value -130
+modify table 4 cell 10 2 value 58.089
+modify table 4 insert row 11
+modify table 4 cell 11 1 value -125
+modify table 4 cell 11 2 value 47.229
+modify table 4 insert row 12
+modify table 4 cell 12 1 value -120
+modify table 4 cell 12 2 value 37.814
+modify table 4 insert row 13
+modify table 4 cell 13 1 value -115
+modify table 4 cell 13 2 value 29.742
+modify table 4 insert row 14
+modify table 4 cell 14 1 value -110
+modify table 4 cell 14 2 value 22.909
+modify table 4 insert row 15
+modify table 4 cell 15 1 value -105
+modify table 4 cell 15 2 value 17.212
+modify table 4 insert row 16
+modify table 4 cell 16 1 value -100
+modify table 4 cell 16 2 value 12.547
+modify table 4 insert row 17
+modify table 4 cell 17 1 value -95
+modify table 4 cell 17 2 value 8.812
+modify table 4 insert row 18
+modify table 4 cell 18 1 value -90
+modify table 4 cell 18 2 value 5.904
+modify table 4 insert row 19
+modify table 4 cell 19 1 value -85
+modify table 4 cell 19 2 value 3.718
+modify table 4 insert row 20
+modify table 4 cell 20 1 value -80
+modify table 4 cell 20 2 value 2.151
+modify table 4 insert row 21
+modify table 4 cell 21 1 value -75
+modify table 4 cell 21 2 value 1.102
+modify table 4 insert row 22
+modify table 4 cell 22 1 value -70
+modify table 4 cell 22 2 value 0.465
+modify table 4 insert row 23
+modify table 4 cell 23 1 value -65
+modify table 4 cell 23 2 value 0.138
+modify table 4 insert row 24
+modify table 4 cell 24 1 value -60
+modify table 4 cell 24 2 value 0.017
+modify table 4 insert row 25
+modify table 4 cell 25 1 value -55
+modify table 4 cell 25 2 value 0.000
+modify table 4 insert row 26
+modify table 4 cell 26 1 value -50
+modify table 4 cell 26 2 value 0
+modify table 4 insert row 27
+modify table 4 cell 27 1 value -45
+modify table 4 cell 27 2 value 0
+modify table 4 insert row 28
+modify table 4 cell 28 1 value -40
+modify table 4 cell 28 2 value 0
+modify table 4 insert row 29
+modify table 4 cell 29 1 value -35
+modify table 4 cell 29 2 value 0
+modify table 4 insert row 30
+modify table 4 cell 30 1 value -30
+modify table 4 cell 30 2 value 0
+modify table 4 insert row 31
+modify table 4 cell 31 1 value -25
+modify table 4 cell 31 2 value 0
+modify table 4 insert row 32
+modify table 4 cell 32 1 value -20
+modify table 4 cell 32 2 value 0
+modify table 4 insert row 33
+modify table 4 cell 33 1 value -15
+modify table 4 cell 33 2 value 0
+modify table 4 insert row 34
+modify table 4 cell 34 1 value -10
+modify table 4 cell 34 2 value 0
+modify table 4 insert row 35
+modify table 4 cell 35 1 value -5
+modify table 4 cell 35 2 value 0
+modify table 4 insert row 36
+modify table 4 cell 36 1 value 0
+modify table 4 cell 36 2 value 0
+modify table 4 insert row 37
+modify table 4 cell 37 1 value 5
+modify table 4 cell 37 2 value 0
+modify table 4 insert row 38
+modify table 4 cell 38 1 value 10
+modify table 4 cell 38 2 value 0
+modify table 4 insert row 39
+modify table 4 cell 39 1 value 15
+modify table 4 cell 39 2 value 0
+modify table 4 insert row 40
+modify table 4 cell 40 1 value 20
+modify table 4 cell 40 2 value 0
+modify table 4 insert row 41
+modify table 4 cell 41 1 value 25
+modify table 4 cell 41 2 value 0
+modify table 4 insert row 42
+modify table 4 cell 42 1 value 30
+modify table 4 cell 42 2 value 0
+modify table 4 insert row 43
+modify table 4 cell 43 1 value 35
+modify table 4 cell 43 2 value 0
+modify table 4 insert row 44
+modify table 4 cell 44 1 value 40
+modify table 4 cell 44 2 value 0
+modify table 4 insert row 45
+modify table 4 cell 45 1 value 45
+modify table 4 cell 45 2 value 0
+modify table 4 insert row 46
+modify table 4 cell 46 1 value 50
+modify table 4 cell 46 2 value 0
+modify table 4 insert row 47
+modify table 4 cell 47 1 value 55
+modify table 4 cell 47 2 value 0.000
+modify table 4 insert row 48
+modify table 4 cell 48 1 value 60
+modify table 4 cell 48 2 value 0.017
+modify table 4 insert row 49
+modify table 4 cell 49 1 value 65
+modify table 4 cell 49 2 value 0.138
+modify table 4 insert row 50
+modify table 4 cell 50 1 value 70
+modify table 4 cell 50 2 value 0.465
+modify table 4 insert row 51
+modify table 4 cell 51 1 value 75
+modify table 4 cell 51 2 value 1.102
+modify table 4 insert row 52
+modify table 4 cell 52 1 value 80
+modify table 4 cell 52 2 value 2.151
+modify table 4 insert row 53
+modify table 4 cell 53 1 value 85
+modify table 4 cell 53 2 value 3.718
+modify table 4 insert row 54
+modify table 4 cell 54 1 value 90
+modify table 4 cell 54 2 value 5.904
+modify table 4 insert row 55
+modify table 4 cell 55 1 value 95
+modify table 4 cell 55 2 value 8.812
+modify table 4 insert row 56
+modify table 4 cell 56 1 value 100
+modify table 4 cell 56 2 value 12.547
+modify table 4 insert row 57
+modify table 4 cell 57 1 value 105
+modify table 4 cell 57 2 value 17.212
+modify table 4 insert row 58
+modify table 4 cell 58 1 value 110
+modify table 4 cell 58 2 value 22.909
+modify table 4 insert row 59
+modify table 4 cell 59 1 value 115
+modify table 4 cell 59 2 value 29.742
+modify table 4 insert row 60
+modify table 4 cell 60 1 value 120
+modify table 4 cell 60 2 value 37.814
+modify table 4 insert row 61
+modify table 4 cell 61 1 value 125
+modify table 4 cell 61 2 value 47.229
+modify table 4 insert row 62
+modify table 4 cell 62 1 value 130
+modify table 4 cell 62 2 value 58.089
+modify table 4 insert row 63
+modify table 4 cell 63 1 value 135
+modify table 4 cell 63 2 value 70.499
+modify table 4 insert row 64
+modify table 4 cell 64 1 value 140
+modify table 4 cell 64 2 value 84.561
+modify table 4 insert row 65
+modify table 4 cell 65 1 value 145
+modify table 4 cell 65 2 value 100.378
+modify table 4 insert row 66
+modify table 4 cell 66 1 value 150
+modify table 4 cell 66 2 value 118.055
+modify table 4 insert row 67
+modify table 4 cell 67 1 value 155
+modify table 4 cell 67 2 value 137.693
+modify table 4 insert row 68
+modify table 4 cell 68 1 value 160
+modify table 4 cell 68 2 value 159.397
+modify table 4 insert row 69
+modify table 4 cell 69 1 value 165
+modify table 4 cell 69 2 value 183.270
+modify table 4 insert row 70
+modify table 4 cell 70 1 value 170
+modify table 4 cell 70 2 value 209.414
+modify table 4 insert row 71
+modify table 4 cell 71 1 value 175
+modify table 4 cell 71 2 value 237.934
+modify material 4 set property 'MASS_MATRIX_DAMPING' table 4
+create table 5
+modify table 5 dependency x
+modify table 5 insert row 1
+modify table 5 cell 1 1 value -175
+modify table 5 cell 1 2 value 237.934
+modify table 5 insert row 2
+modify table 5 cell 2 1 value -170
+modify table 5 cell 2 2 value 209.414
+modify table 5 insert row 3
+modify table 5 cell 3 1 value -165
+modify table 5 cell 3 2 value 183.270
+modify table 5 insert row 4
+modify table 5 cell 4 1 value -160
+modify table 5 cell 4 2 value 159.397
+modify table 5 insert row 5
+modify table 5 cell 5 1 value -155
+modify table 5 cell 5 2 value 137.693
+modify table 5 insert row 6
+modify table 5 cell 6 1 value -150
+modify table 5 cell 6 2 value 118.055
+modify table 5 insert row 7
+modify table 5 cell 7 1 value -145
+modify table 5 cell 7 2 value 100.378
+modify table 5 insert row 8
+modify table 5 cell 8 1 value -140
+modify table 5 cell 8 2 value 84.561
+modify table 5 insert row 9
+modify table 5 cell 9 1 value -135
+modify table 5 cell 9 2 value 70.499
+modify table 5 insert row 10
+modify table 5 cell 10 1 value -130
+modify table 5 cell 10 2 value 58.089
+modify table 5 insert row 11
+modify table 5 cell 11 1 value -125
+modify table 5 cell 11 2 value 47.229
+modify table 5 insert row 12
+modify table 5 cell 12 1 value -120
+modify table 5 cell 12 2 value 37.814
+modify table 5 insert row 13
+modify table 5 cell 13 1 value -115
+modify table 5 cell 13 2 value 29.742
+modify table 5 insert row 14
+modify table 5 cell 14 1 value -110
+modify table 5 cell 14 2 value 22.909
+modify table 5 insert row 15
+modify table 5 cell 15 1 value -105
+modify table 5 cell 15 2 value 17.212
+modify table 5 insert row 16
+modify table 5 cell 16 1 value -100
+modify table 5 cell 16 2 value 12.547
+modify table 5 insert row 17
+modify table 5 cell 17 1 value -95
+modify table 5 cell 17 2 value 8.812
+modify table 5 insert row 18
+modify table 5 cell 18 1 value -90
+modify table 5 cell 18 2 value 5.904
+modify table 5 insert row 19
+modify table 5 cell 19 1 value -85
+modify table 5 cell 19 2 value 3.718
+modify table 5 insert row 20
+modify table 5 cell 20 1 value -80
+modify table 5 cell 20 2 value 2.151
+modify table 5 insert row 21
+modify table 5 cell 21 1 value -75
+modify table 5 cell 21 2 value 1.102
+modify table 5 insert row 22
+modify table 5 cell 22 1 value -70
+modify table 5 cell 22 2 value 0.465
+modify table 5 insert row 23
+modify table 5 cell 23 1 value -65
+modify table 5 cell 23 2 value 0.138
+modify table 5 insert row 24
+modify table 5 cell 24 1 value -60
+modify table 5 cell 24 2 value 0.017
+modify table 5 insert row 25
+modify table 5 cell 25 1 value -55
+modify table 5 cell 25 2 value 0.000
+modify table 5 insert row 26
+modify table 5 cell 26 1 value -50
+modify table 5 cell 26 2 value 0
+modify table 5 insert row 27
+modify table 5 cell 27 1 value -45
+modify table 5 cell 27 2 value 0
+modify table 5 insert row 28
+modify table 5 cell 28 1 value -40
+modify table 5 cell 28 2 value 0
+modify table 5 insert row 29
+modify table 5 cell 29 1 value -35
+modify table 5 cell 29 2 value 0
+modify table 5 insert row 30
+modify table 5 cell 30 1 value -30
+modify table 5 cell 30 2 value 0
+modify table 5 insert row 31
+modify table 5 cell 31 1 value -25
+modify table 5 cell 31 2 value 0
+modify table 5 insert row 32
+modify table 5 cell 32 1 value -20
+modify table 5 cell 32 2 value 0
+modify table 5 insert row 33
+modify table 5 cell 33 1 value -15
+modify table 5 cell 33 2 value 0
+modify table 5 insert row 34
+modify table 5 cell 34 1 value -10
+modify table 5 cell 34 2 value 0
+modify table 5 insert row 35
+modify table 5 cell 35 1 value -5
+modify table 5 cell 35 2 value 0
+modify table 5 insert row 36
+modify table 5 cell 36 1 value 0
+modify table 5 cell 36 2 value 0
+modify table 5 insert row 37
+modify table 5 cell 37 1 value 5
+modify table 5 cell 37 2 value 0
+modify table 5 insert row 38
+modify table 5 cell 38 1 value 10
+modify table 5 cell 38 2 value 0
+modify table 5 insert row 39
+modify table 5 cell 39 1 value 15
+modify table 5 cell 39 2 value 0
+modify table 5 insert row 40
+modify table 5 cell 40 1 value 20
+modify table 5 cell 40 2 value 0
+modify table 5 insert row 41
+modify table 5 cell 41 1 value 25
+modify table 5 cell 41 2 value 0
+modify table 5 insert row 42
+modify table 5 cell 42 1 value 30
+modify table 5 cell 42 2 value 0
+modify table 5 insert row 43
+modify table 5 cell 43 1 value 35
+modify table 5 cell 43 2 value 0
+modify table 5 insert row 44
+modify table 5 cell 44 1 value 40
+modify table 5 cell 44 2 value 0
+modify table 5 insert row 45
+modify table 5 cell 45 1 value 45
+modify table 5 cell 45 2 value 0
+modify table 5 insert row 46
+modify table 5 cell 46 1 value 50
+modify table 5 cell 46 2 value 0
+modify table 5 insert row 47
+modify table 5 cell 47 1 value 55
+modify table 5 cell 47 2 value 0.000
+modify table 5 insert row 48
+modify table 5 cell 48 1 value 60
+modify table 5 cell 48 2 value 0.017
+modify table 5 insert row 49
+modify table 5 cell 49 1 value 65
+modify table 5 cell 49 2 value 0.138
+modify table 5 insert row 50
+modify table 5 cell 50 1 value 70
+modify table 5 cell 50 2 value 0.465
+modify table 5 insert row 51
+modify table 5 cell 51 1 value 75
+modify table 5 cell 51 2 value 1.102
+modify table 5 insert row 52
+modify table 5 cell 52 1 value 80
+modify table 5 cell 52 2 value 2.151
+modify table 5 insert row 53
+modify table 5 cell 53 1 value 85
+modify table 5 cell 53 2 value 3.718
+modify table 5 insert row 54
+modify table 5 cell 54 1 value 90
+modify table 5 cell 54 2 value 5.904
+modify table 5 insert row 55
+modify table 5 cell 55 1 value 95
+modify table 5 cell 55 2 value 8.812
+modify table 5 insert row 56
+modify table 5 cell 56 1 value 100
+modify table 5 cell 56 2 value 12.547
+modify table 5 insert row 57
+modify table 5 cell 57 1 value 105
+modify table 5 cell 57 2 value 17.212
+modify table 5 insert row 58
+modify table 5 cell 58 1 value 110
+modify table 5 cell 58 2 value 22.909
+modify table 5 insert row 59
+modify table 5 cell 59 1 value 115
+modify table 5 cell 59 2 value 29.742
+modify table 5 insert row 60
+modify table 5 cell 60 1 value 120
+modify table 5 cell 60 2 value 37.814
+modify table 5 insert row 61
+modify table 5 cell 61 1 value 125
+modify table 5 cell 61 2 value 47.229
+modify table 5 insert row 62
+modify table 5 cell 62 1 value 130
+modify table 5 cell 62 2 value 58.089
+modify table 5 insert row 63
+modify table 5 cell 63 1 value 135
+modify table 5 cell 63 2 value 70.499
+modify table 5 insert row 64
+modify table 5 cell 64 1 value 140
+modify table 5 cell 64 2 value 84.561
+modify table 5 insert row 65
+modify table 5 cell 65 1 value 145
+modify table 5 cell 65 2 value 100.378
+modify table 5 insert row 66
+modify table 5 cell 66 1 value 150
+modify table 5 cell 66 2 value 118.055
+modify table 5 insert row 67
+modify table 5 cell 67 1 value 155
+modify table 5 cell 67 2 value 137.693
+modify table 5 insert row 68
+modify table 5 cell 68 1 value 160
+modify table 5 cell 68 2 value 159.397
+modify table 5 insert row 69
+modify table 5 cell 69 1 value 165
+modify table 5 cell 69 2 value 183.270
+modify table 5 insert row 70
+modify table 5 cell 70 1 value 170
+modify table 5 cell 70 2 value 209.414
+modify table 5 insert row 71
+modify table 5 cell 71 1 value 175
+modify table 5 cell 71 2 value 237.934
+modify material 5 set property 'MASS_MATRIX_DAMPING' table 5
+create table 6
+modify table 6 dependency x
+modify table 6 insert row 1
+modify table 6 cell 1 1 value -175
+modify table 6 cell 1 2 value 255.050
+modify table 6 insert row 2
+modify table 6 cell 2 1 value -170
+modify table 6 cell 2 2 value 224.478
+modify table 6 insert row 3
+modify table 6 cell 3 1 value -165
+modify table 6 cell 3 2 value 196.453
+modify table 6 insert row 4
+modify table 6 cell 4 1 value -160
+modify table 6 cell 4 2 value 170.863
+modify table 6 insert row 5
+modify table 6 cell 5 1 value -155
+modify table 6 cell 5 2 value 147.598
+modify table 6 insert row 6
+modify table 6 cell 6 1 value -150
+modify table 6 cell 6 2 value 126.547
+modify table 6 insert row 7
+modify table 6 cell 7 1 value -145
+modify table 6 cell 7 2 value 107.599
+modify table 6 insert row 8
+modify table 6 cell 8 1 value -140
+modify table 6 cell 8 2 value 90.644
+modify table 6 insert row 9
+modify table 6 cell 9 1 value -135
+modify table 6 cell 9 2 value 75.570
+modify table 6 insert row 10
+modify table 6 cell 10 1 value -130
+modify table 6 cell 10 2 value 62.268
+modify table 6 insert row 11
+modify table 6 cell 11 1 value -125
+modify table 6 cell 11 2 value 50.626
+modify table 6 insert row 12
+modify table 6 cell 12 1 value -120
+modify table 6 cell 12 2 value 40.534
+modify table 6 insert row 13
+modify table 6 cell 13 1 value -115
+modify table 6 cell 13 2 value 31.881
+modify table 6 insert row 14
+modify table 6 cell 14 1 value -110
+modify table 6 cell 14 2 value 24.557
+modify table 6 insert row 15
+modify table 6 cell 15 1 value -105
+modify table 6 cell 15 2 value 18.450
+modify table 6 insert row 16
+modify table 6 cell 16 1 value -100
+modify table 6 cell 16 2 value 13.450
+modify table 6 insert row 17
+modify table 6 cell 17 1 value -95
+modify table 6 cell 17 2 value 9.446
+modify table 6 insert row 18
+modify table 6 cell 18 1 value -90
+modify table 6 cell 18 2 value 6.328
+modify table 6 insert row 19
+modify table 6 cell 19 1 value -85
+modify table 6 cell 19 2 value 3.985
+modify table 6 insert row 20
+modify table 6 cell 20 1 value -80
+modify table 6 cell 20 2 value 2.306
+modify table 6 insert row 21
+modify table 6 cell 21 1 value -75
+modify table 6 cell 21 2 value 1.181
+modify table 6 insert row 22
+modify table 6 cell 22 1 value -70
+modify table 6 cell 22 2 value 0.498
+modify table 6 insert row 23
+modify table 6 cell 23 1 value -65
+modify table 6 cell 23 2 value 0.148
+modify table 6 insert row 24
+modify table 6 cell 24 1 value -60
+modify table 6 cell 24 2 value 0.018
+modify table 6 insert row 25
+modify table 6 cell 25 1 value -55
+modify table 6 cell 25 2 value 0.000
+modify table 6 insert row 26
+modify table 6 cell 26 1 value -50
+modify table 6 cell 26 2 value 0
+modify table 6 insert row 27
+modify table 6 cell 27 1 value -45
+modify table 6 cell 27 2 value 0
+modify table 6 insert row 28
+modify table 6 cell 28 1 value -40
+modify table 6 cell 28 2 value 0
+modify table 6 insert row 29
+modify table 6 cell 29 1 value -35
+modify table 6 cell 29 2 value 0
+modify table 6 insert row 30
+modify table 6 cell 30 1 value -30
+modify table 6 cell 30 2 value 0
+modify table 6 insert row 31
+modify table 6 cell 31 1 value -25
+modify table 6 cell 31 2 value 0
+modify table 6 insert row 32
+modify table 6 cell 32 1 value -20
+modify table 6 cell 32 2 value 0
+modify table 6 insert row 33
+modify table 6 cell 33 1 value -15
+modify table 6 cell 33 2 value 0
+modify table 6 insert row 34
+modify table 6 cell 34 1 value -10
+modify table 6 cell 34 2 value 0
+modify table 6 insert row 35
+modify table 6 cell 35 1 value -5
+modify table 6 cell 35 2 value 0
+modify table 6 insert row 36
+modify table 6 cell 36 1 value 0
+modify table 6 cell 36 2 value 0
+modify table 6 insert row 37
+modify table 6 cell 37 1 value 5
+modify table 6 cell 37 2 value 0
+modify table 6 insert row 38
+modify table 6 cell 38 1 value 10
+modify table 6 cell 38 2 value 0
+modify table 6 insert row 39
+modify table 6 cell 39 1 value 15
+modify table 6 cell 39 2 value 0
+modify table 6 insert row 40
+modify table 6 cell 40 1 value 20
+modify table 6 cell 40 2 value 0
+modify table 6 insert row 41
+modify table 6 cell 41 1 value 25
+modify table 6 cell 41 2 value 0
+modify table 6 insert row 42
+modify table 6 cell 42 1 value 30
+modify table 6 cell 42 2 value 0
+modify table 6 insert row 43
+modify table 6 cell 43 1 value 35
+modify table 6 cell 43 2 value 0
+modify table 6 insert row 44
+modify table 6 cell 44 1 value 40
+modify table 6 cell 44 2 value 0
+modify table 6 insert row 45
+modify table 6 cell 45 1 value 45
+modify table 6 cell 45 2 value 0
+modify table 6 insert row 46
+modify table 6 cell 46 1 value 50
+modify table 6 cell 46 2 value 0
+modify table 6 insert row 47
+modify table 6 cell 47 1 value 55
+modify table 6 cell 47 2 value 0.000
+modify table 6 insert row 48
+modify table 6 cell 48 1 value 60
+modify table 6 cell 48 2 value 0.018
+modify table 6 insert row 49
+modify table 6 cell 49 1 value 65
+modify table 6 cell 49 2 value 0.148
+modify table 6 insert row 50
+modify table 6 cell 50 1 value 70
+modify table 6 cell 50 2 value 0.498
+modify table 6 insert row 51
+modify table 6 cell 51 1 value 75
+modify table 6 cell 51 2 value 1.181
+modify table 6 insert row 52
+modify table 6 cell 52 1 value 80
+modify table 6 cell 52 2 value 2.306
+modify table 6 insert row 53
+modify table 6 cell 53 1 value 85
+modify table 6 cell 53 2 value 3.985
+modify table 6 insert row 54
+modify table 6 cell 54 1 value 90
+modify table 6 cell 54 2 value 6.328
+modify table 6 insert row 55
+modify table 6 cell 55 1 value 95
+modify table 6 cell 55 2 value 9.446
+modify table 6 insert row 56
+modify table 6 cell 56 1 value 100
+modify table 6 cell 56 2 value 13.450
+modify table 6 insert row 57
+modify table 6 cell 57 1 value 105
+modify table 6 cell 57 2 value 18.450
+modify table 6 insert row 58
+modify table 6 cell 58 1 value 110
+modify table 6 cell 58 2 value 24.557
+modify table 6 insert row 59
+modify table 6 cell 59 1 value 115
+modify table 6 cell 59 2 value 31.881
+modify table 6 insert row 60
+modify table 6 cell 60 1 value 120
+modify table 6 cell 60 2 value 40.534
+modify table 6 insert row 61
+modify table 6 cell 61 1 value 125
+modify table 6 cell 61 2 value 50.626
+modify table 6 insert row 62
+modify table 6 cell 62 1 value 130
+modify table 6 cell 62 2 value 62.268
+modify table 6 insert row 63
+modify table 6 cell 63 1 value 135
+modify table 6 cell 63 2 value 75.570
+modify table 6 insert row 64
+modify table 6 cell 64 1 value 140
+modify table 6 cell 64 2 value 90.644
+modify table 6 insert row 65
+modify table 6 cell 65 1 value 145
+modify table 6 cell 65 2 value 107.599
+modify table 6 insert row 66
+modify table 6 cell 66 1 value 150
+modify table 6 cell 66 2 value 126.547
+modify table 6 insert row 67
+modify table 6 cell 67 1 value 155
+modify table 6 cell 67 2 value 147.598
+modify table 6 insert row 68
+modify table 6 cell 68 1 value 160
+modify table 6 cell 68 2 value 170.863
+modify table 6 insert row 69
+modify table 6 cell 69 1 value 165
+modify table 6 cell 69 2 value 196.453
+modify table 6 insert row 70
+modify table 6 cell 70 1 value 170
+modify table 6 cell 70 2 value 224.478
+modify table 6 insert row 71
+modify table 6 cell 71 1 value 175
+modify table 6 cell 71 2 value 255.050
+modify material 6 set property 'MASS_MATRIX_DAMPING' table 6
+create table 7
+modify table 7 dependency x
+modify table 7 insert row 1
+modify table 7 cell 1 1 value -175
+modify table 7 cell 1 2 value 284.907
+modify table 7 insert row 2
+modify table 7 cell 2 1 value -170
+modify table 7 cell 2 2 value 250.756
+modify table 7 insert row 3
+modify table 7 cell 3 1 value -165
+modify table 7 cell 3 2 value 219.451
+modify table 7 insert row 4
+modify table 7 cell 4 1 value -160
+modify table 7 cell 4 2 value 190.865
+modify table 7 insert row 5
+modify table 7 cell 5 1 value -155
+modify table 7 cell 5 2 value 164.876
+modify table 7 insert row 6
+modify table 7 cell 6 1 value -150
+modify table 7 cell 6 2 value 141.361
+modify table 7 insert row 7
+modify table 7 cell 7 1 value -145
+modify table 7 cell 7 2 value 120.195
+modify table 7 insert row 8
+modify table 7 cell 8 1 value -140
+modify table 7 cell 8 2 value 101.255
+modify table 7 insert row 9
+modify table 7 cell 9 1 value -135
+modify table 7 cell 9 2 value 84.417
+modify table 7 insert row 10
+modify table 7 cell 10 1 value -130
+modify table 7 cell 10 2 value 69.557
+modify table 7 insert row 11
+modify table 7 cell 11 1 value -125
+modify table 7 cell 11 2 value 56.553
+modify table 7 insert row 12
+modify table 7 cell 12 1 value -120
+modify table 7 cell 12 2 value 45.279
+modify table 7 insert row 13
+modify table 7 cell 13 1 value -115
+modify table 7 cell 13 2 value 35.613
+modify table 7 insert row 14
+modify table 7 cell 14 1 value -110
+modify table 7 cell 14 2 value 27.431
+modify table 7 insert row 15
+modify table 7 cell 15 1 value -105
+modify table 7 cell 15 2 value 20.610
+modify table 7 insert row 16
+modify table 7 cell 16 1 value -100
+modify table 7 cell 16 2 value 15.024
+modify table 7 insert row 17
+modify table 7 cell 17 1 value -95
+modify table 7 cell 17 2 value 10.552
+modify table 7 insert row 18
+modify table 7 cell 18 1 value -90
+modify table 7 cell 18 2 value 7.069
+modify table 7 insert row 19
+modify table 7 cell 19 1 value -85
+modify table 7 cell 19 2 value 4.452
+modify table 7 insert row 20
+modify table 7 cell 20 1 value -80
+modify table 7 cell 20 2 value 2.576
+modify table 7 insert row 21
+modify table 7 cell 21 1 value -75
+modify table 7 cell 21 2 value 1.319
+modify table 7 insert row 22
+modify table 7 cell 22 1 value -70
+modify table 7 cell 22 2 value 0.556
+modify table 7 insert row 23
+modify table 7 cell 23 1 value -65
+modify table 7 cell 23 2 value 0.165
+modify table 7 insert row 24
+modify table 7 cell 24 1 value -60
+modify table 7 cell 24 2 value 0.021
+modify table 7 insert row 25
+modify table 7 cell 25 1 value -55
+modify table 7 cell 25 2 value 0.000
+modify table 7 insert row 26
+modify table 7 cell 26 1 value -50
+modify table 7 cell 26 2 value 0
+modify table 7 insert row 27
+modify table 7 cell 27 1 value -45
+modify table 7 cell 27 2 value 0
+modify table 7 insert row 28
+modify table 7 cell 28 1 value -40
+modify table 7 cell 28 2 value 0
+modify table 7 insert row 29
+modify table 7 cell 29 1 value -35
+modify table 7 cell 29 2 value 0
+modify table 7 insert row 30
+modify table 7 cell 30 1 value -30
+modify table 7 cell 30 2 value 0
+modify table 7 insert row 31
+modify table 7 cell 31 1 value -25
+modify table 7 cell 31 2 value 0
+modify table 7 insert row 32
+modify table 7 cell 32 1 value -20
+modify table 7 cell 32 2 value 0
+modify table 7 insert row 33
+modify table 7 cell 33 1 value -15
+modify table 7 cell 33 2 value 0
+modify table 7 insert row 34
+modify table 7 cell 34 1 value -10
+modify table 7 cell 34 2 value 0
+modify table 7 insert row 35
+modify table 7 cell 35 1 value -5
+modify table 7 cell 35 2 value 0
+modify table 7 insert row 36
+modify table 7 cell 36 1 value 0
+modify table 7 cell 36 2 value 0
+modify table 7 insert row 37
+modify table 7 cell 37 1 value 5
+modify table 7 cell 37 2 value 0
+modify table 7 insert row 38
+modify table 7 cell 38 1 value 10
+modify table 7 cell 38 2 value 0
+modify table 7 insert row 39
+modify table 7 cell 39 1 value 15
+modify table 7 cell 39 2 value 0
+modify table 7 insert row 40
+modify table 7 cell 40 1 value 20
+modify table 7 cell 40 2 value 0
+modify table 7 insert row 41
+modify table 7 cell 41 1 value 25
+modify table 7 cell 41 2 value 0
+modify table 7 insert row 42
+modify table 7 cell 42 1 value 30
+modify table 7 cell 42 2 value 0
+modify table 7 insert row 43
+modify table 7 cell 43 1 value 35
+modify table 7 cell 43 2 value 0
+modify table 7 insert row 44
+modify table 7 cell 44 1 value 40
+modify table 7 cell 44 2 value 0
+modify table 7 insert row 45
+modify table 7 cell 45 1 value 45
+modify table 7 cell 45 2 value 0
+modify table 7 insert row 46
+modify table 7 cell 46 1 value 50
+modify table 7 cell 46 2 value 0
+modify table 7 insert row 47
+modify table 7 cell 47 1 value 55
+modify table 7 cell 47 2 value 0.000
+modify table 7 insert row 48
+modify table 7 cell 48 1 value 60
+modify table 7 cell 48 2 value 0.021
+modify table 7 insert row 49
+modify table 7 cell 49 1 value 65
+modify table 7 cell 49 2 value 0.165
+modify table 7 insert row 50
+modify table 7 cell 50 1 value 70
+modify table 7 cell 50 2 value 0.556
+modify table 7 insert row 51
+modify table 7 cell 51 1 value 75
+modify table 7 cell 51 2 value 1.319
+modify table 7 insert row 52
+modify table 7 cell 52 1 value 80
+modify table 7 cell 52 2 value 2.576
+modify table 7 insert row 53
+modify table 7 cell 53 1 value 85
+modify table 7 cell 53 2 value 4.452
+modify table 7 insert row 54
+modify table 7 cell 54 1 value 90
+modify table 7 cell 54 2 value 7.069
+modify table 7 insert row 55
+modify table 7 cell 55 1 value 95
+modify table 7 cell 55 2 value 10.552
+modify table 7 insert row 56
+modify table 7 cell 56 1 value 100
+modify table 7 cell 56 2 value 15.024
+modify table 7 insert row 57
+modify table 7 cell 57 1 value 105
+modify table 7 cell 57 2 value 20.610
+modify table 7 insert row 58
+modify table 7 cell 58 1 value 110
+modify table 7 cell 58 2 value 27.431
+modify table 7 insert row 59
+modify table 7 cell 59 1 value 115
+modify table 7 cell 59 2 value 35.613
+modify table 7 insert row 60
+modify table 7 cell 60 1 value 120
+modify table 7 cell 60 2 value 45.279
+modify table 7 insert row 61
+modify table 7 cell 61 1 value 125
+modify table 7 cell 61 2 value 56.553
+modify table 7 insert row 62
+modify table 7 cell 62 1 value 130
+modify table 7 cell 62 2 value 69.557
+modify table 7 insert row 63
+modify table 7 cell 63 1 value 135
+modify table 7 cell 63 2 value 84.417
+modify table 7 insert row 64
+modify table 7 cell 64 1 value 140
+modify table 7 cell 64 2 value 101.255
+modify table 7 insert row 65
+modify table 7 cell 65 1 value 145
+modify table 7 cell 65 2 value 120.195
+modify table 7 insert row 66
+modify table 7 cell 66 1 value 150
+modify table 7 cell 66 2 value 141.361
+modify table 7 insert row 67
+modify table 7 cell 67 1 value 155
+modify table 7 cell 67 2 value 164.876
+modify table 7 insert row 68
+modify table 7 cell 68 1 value 160
+modify table 7 cell 68 2 value 190.865
+modify table 7 insert row 69
+modify table 7 cell 69 1 value 165
+modify table 7 cell 69 2 value 219.451
+modify table 7 insert row 70
+modify table 7 cell 70 1 value 170
+modify table 7 cell 70 2 value 250.756
+modify table 7 insert row 71
+modify table 7 cell 71 1 value 175
+modify table 7 cell 71 2 value 284.907
+modify material 7 set property 'MASS_MATRIX_DAMPING' table 7
+create table 8
+modify table 8 dependency x
+modify table 8 insert row 1
+modify table 8 cell 1 1 value -175
+modify table 8 cell 1 2 value 313.766
+modify table 8 insert row 2
+modify table 8 cell 2 1 value -170
+modify table 8 cell 2 2 value 276.156
+modify table 8 insert row 3
+modify table 8 cell 3 1 value -165
+modify table 8 cell 3 2 value 241.679
+modify table 8 insert row 4
+modify table 8 cell 4 1 value -160
+modify table 8 cell 4 2 value 210.198
+modify table 8 insert row 5
+modify table 8 cell 5 1 value -155
+modify table 8 cell 5 2 value 181.577
+modify table 8 insert row 6
+modify table 8 cell 6 1 value -150
+modify table 8 cell 6 2 value 155.680
+modify table 8 insert row 7
+modify table 8 cell 7 1 value -145
+modify table 8 cell 7 2 value 132.370
+modify table 8 insert row 8
+modify table 8 cell 8 1 value -140
+modify table 8 cell 8 2 value 111.511
+modify table 8 insert row 9
+modify table 8 cell 9 1 value -135
+modify table 8 cell 9 2 value 92.968
+modify table 8 insert row 10
+modify table 8 cell 10 1 value -130
+modify table 8 cell 10 2 value 76.603
+modify table 8 insert row 11
+modify table 8 cell 11 1 value -125
+modify table 8 cell 11 2 value 62.281
+modify table 8 insert row 12
+modify table 8 cell 12 1 value -120
+modify table 8 cell 12 2 value 49.866
+modify table 8 insert row 13
+modify table 8 cell 13 1 value -115
+modify table 8 cell 13 2 value 39.221
+modify table 8 insert row 14
+modify table 8 cell 14 1 value -110
+modify table 8 cell 14 2 value 30.210
+modify table 8 insert row 15
+modify table 8 cell 15 1 value -105
+modify table 8 cell 15 2 value 22.697
+modify table 8 insert row 16
+modify table 8 cell 16 1 value -100
+modify table 8 cell 16 2 value 16.546
+modify table 8 insert row 17
+modify table 8 cell 17 1 value -95
+modify table 8 cell 17 2 value 11.621
+modify table 8 insert row 18
+modify table 8 cell 18 1 value -90
+modify table 8 cell 18 2 value 7.785
+modify table 8 insert row 19
+modify table 8 cell 19 1 value -85
+modify table 8 cell 19 2 value 4.903
+modify table 8 insert row 20
+modify table 8 cell 20 1 value -80
+modify table 8 cell 20 2 value 2.837
+modify table 8 insert row 21
+modify table 8 cell 21 1 value -75
+modify table 8 cell 21 2 value 1.453
+modify table 8 insert row 22
+modify table 8 cell 22 1 value -70
+modify table 8 cell 22 2 value 0.613
+modify table 8 insert row 23
+modify table 8 cell 23 1 value -65
+modify table 8 cell 23 2 value 0.182
+modify table 8 insert row 24
+modify table 8 cell 24 1 value -60
+modify table 8 cell 24 2 value 0.023
+modify table 8 insert row 25
+modify table 8 cell 25 1 value -55
+modify table 8 cell 25 2 value 0.000
+modify table 8 insert row 26
+modify table 8 cell 26 1 value -50
+modify table 8 cell 26 2 value 0
+modify table 8 insert row 27
+modify table 8 cell 27 1 value -45
+modify table 8 cell 27 2 value 0
+modify table 8 insert row 28
+modify table 8 cell 28 1 value -40
+modify table 8 cell 28 2 value 0
+modify table 8 insert row 29
+modify table 8 cell 29 1 value -35
+modify table 8 cell 29 2 value 0
+modify table 8 insert row 30
+modify table 8 cell 30 1 value -30
+modify table 8 cell 30 2 value 0
+modify table 8 insert row 31
+modify table 8 cell 31 1 value -25
+modify table 8 cell 31 2 value 0
+modify table 8 insert row 32
+modify table 8 cell 32 1 value -20
+modify table 8 cell 32 2 value 0
+modify table 8 insert row 33
+modify table 8 cell 33 1 value -15
+modify table 8 cell 33 2 value 0
+modify table 8 insert row 34
+modify table 8 cell 34 1 value -10
+modify table 8 cell 34 2 value 0
+modify table 8 insert row 35
+modify table 8 cell 35 1 value -5
+modify table 8 cell 35 2 value 0
+modify table 8 insert row 36
+modify table 8 cell 36 1 value 0
+modify table 8 cell 36 2 value 0
+modify table 8 insert row 37
+modify table 8 cell 37 1 value 5
+modify table 8 cell 37 2 value 0
+modify table 8 insert row 38
+modify table 8 cell 38 1 value 10
+modify table 8 cell 38 2 value 0
+modify table 8 insert row 39
+modify table 8 cell 39 1 value 15
+modify table 8 cell 39 2 value 0
+modify table 8 insert row 40
+modify table 8 cell 40 1 value 20
+modify table 8 cell 40 2 value 0
+modify table 8 insert row 41
+modify table 8 cell 41 1 value 25
+modify table 8 cell 41 2 value 0
+modify table 8 insert row 42
+modify table 8 cell 42 1 value 30
+modify table 8 cell 42 2 value 0
+modify table 8 insert row 43
+modify table 8 cell 43 1 value 35
+modify table 8 cell 43 2 value 0
+modify table 8 insert row 44
+modify table 8 cell 44 1 value 40
+modify table 8 cell 44 2 value 0
+modify table 8 insert row 45
+modify table 8 cell 45 1 value 45
+modify table 8 cell 45 2 value 0
+modify table 8 insert row 46
+modify table 8 cell 46 1 value 50
+modify table 8 cell 46 2 value 0
+modify table 8 insert row 47
+modify table 8 cell 47 1 value 55
+modify table 8 cell 47 2 value 0.000
+modify table 8 insert row 48
+modify table 8 cell 48 1 value 60
+modify table 8 cell 48 2 value 0.023
+modify table 8 insert row 49
+modify table 8 cell 49 1 value 65
+modify table 8 cell 49 2 value 0.182
+modify table 8 insert row 50
+modify table 8 cell 50 1 value 70
+modify table 8 cell 50 2 value 0.613
+modify table 8 insert row 51
+modify table 8 cell 51 1 value 75
+modify table 8 cell 51 2 value 1.453
+modify table 8 insert row 52
+modify table 8 cell 52 1 value 80
+modify table 8 cell 52 2 value 2.837
+modify table 8 insert row 53
+modify table 8 cell 53 1 value 85
+modify table 8 cell 53 2 value 4.903
+modify table 8 insert row 54
+modify table 8 cell 54 1 value 90
+modify table 8 cell 54 2 value 7.785
+modify table 8 insert row 55
+modify table 8 cell 55 1 value 95
+modify table 8 cell 55 2 value 11.621
+modify table 8 insert row 56
+modify table 8 cell 56 1 value 100
+modify table 8 cell 56 2 value 16.546
+modify table 8 insert row 57
+modify table 8 cell 57 1 value 105
+modify table 8 cell 57 2 value 22.697
+modify table 8 insert row 58
+modify table 8 cell 58 1 value 110
+modify table 8 cell 58 2 value 30.210
+modify table 8 insert row 59
+modify table 8 cell 59 1 value 115
+modify table 8 cell 59 2 value 39.221
+modify table 8 insert row 60
+modify table 8 cell 60 1 value 120
+modify table 8 cell 60 2 value 49.866
+modify table 8 insert row 61
+modify table 8 cell 61 1 value 125
+modify table 8 cell 61 2 value 62.281
+modify table 8 insert row 62
+modify table 8 cell 62 1 value 130
+modify table 8 cell 62 2 value 76.603
+modify table 8 insert row 63
+modify table 8 cell 63 1 value 135
+modify table 8 cell 63 2 value 92.968
+modify table 8 insert row 64
+modify table 8 cell 64 1 value 140
+modify table 8 cell 64 2 value 111.511
+modify table 8 insert row 65
+modify table 8 cell 65 1 value 145
+modify table 8 cell 65 2 value 132.370
+modify table 8 insert row 66
+modify table 8 cell 66 1 value 150
+modify table 8 cell 66 2 value 155.680
+modify table 8 insert row 67
+modify table 8 cell 67 1 value 155
+modify table 8 cell 67 2 value 181.577
+modify table 8 insert row 68
+modify table 8 cell 68 1 value 160
+modify table 8 cell 68 2 value 210.198
+modify table 8 insert row 69
+modify table 8 cell 69 1 value 165
+modify table 8 cell 69 2 value 241.679
+modify table 8 insert row 70
+modify table 8 cell 70 1 value 170
+modify table 8 cell 70 2 value 276.156
+modify table 8 insert row 71
+modify table 8 cell 71 1 value 175
+modify table 8 cell 71 2 value 313.766
+modify material 8 set property 'MASS_MATRIX_DAMPING' table 8
+
 set duplicate block elements off
 block 1 add surface 5 7 9 11
 block 1 name 'Layer1'
@@ -132,26 +1861,30 @@ block 8 name 'Layer8'
 block 8 material 8
 block 8 element plane order 3
 
-create absorption on curve 22 34 46 58 70 82 94 106 102 10 6 97 99 87 75 63 51 39 27 15  # 7 9
+create absorption on curve 22 34 46 58 70 82 94 106 102 10 6 97 99 87 75 63 51 39 27 15 7 9
 
 # create force on vertex 10 force value 1 direction 0 -1 0
 # create formula 1 'ricker(1e+08, 15, 0, time)'
 # modify force 1 dof 2 formula 1
 
-create velocity on vertex 10 
-create formula 2 'ricker(-1, 15, 0.033333, time)'
-modify velocity 1 dof 2 formula 2
+# create velocity on vertex 10 
+# create formula 1 'ricker(-1, 15, 0.033333, time)'
+# modify velocity 1 dof 2 formula 1
 
+create displacement on vertex 10 
+# create formula 1 'ricker(-1, 15, 0.033333, time)'
+create formula 1 'ricker(0.026241398104838505, 15, -0.057, time)'
+modify displacement 1 dof 2 formula 1
 
 create receiver on curve 11 17 displacement 1 1 0 output everystep 5
 create receiver on curve 11 17 velocity 1 1 0 output everystep 5
 create receiver on curve 11 17 acceleration 1 1 0 output everystep 5
 
 analysis type dynamic elasticity dim2 planestrain preload off
-dynamic method full_solution scheme explicit maxtime 1 maxsteps 150000
-# dynamic method full_solution scheme implicit steps 5000 newmark_gamma 0.005 maxtime 1
-output nodalforce off energy off record3d on log on vtu on material off results everystep 600
+dynamic method full_solution scheme explicit maxtime 1.0 maxsteps 150000
+# dynamic method full_solution scheme implicit steps 10000 newmark_gamma 0.005 maxtime 1
+output nodalforce off energy off record3d on log on vtu on material off results everystep 100
 
-calculation start path 'B:\ELfimov\Dissertation\exps\OpenEFWI\layers_zplane_velocity_t0_5_3\output.pvd'
+# calculation start path 'B:\ELfimov\Dissertation\exps\OpenEFWI\layers_zplane_displacement_positive_shifted_5_3\output.pvd'
 
 
