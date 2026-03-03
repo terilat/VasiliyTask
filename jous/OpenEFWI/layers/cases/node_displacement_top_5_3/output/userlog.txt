@@ -147,7 +147,7 @@ calculation start path 'B:\\ELfimov\\Dissertation\\exps\\OpenEFWI\\cases\\node_d
 
 Available RAM is set to 100% (130909 Mb)
 Available CPU is set to 100% (12 threads)
-Calculation started at 2026-02-28 14:05:36
+Calculation started at 2026-03-1 12:44:57
 Using 12 CPU threads of 12 available.
 Step      1. Time 0.00003381. Time step 3.38054308e-05. Done. Successfully.
 Step      2. Time 0.00006761. Time step 3.38054308e-05. Done. Successfully.
@@ -29733,7 +29733,7 @@ Step  29581. Time 0.99999845. Time step 3.38054308e-05. Done. Successfully.
 Step  29582. Time 1.00000000. Time step 1.55139982e-06. Done. Successfully.
 Case 1. Done. Successfully.
 Calculation has finished successfully.
-Peak memory (RAM) consumption is: 686.05078125 MB
-Used disk space is: 5147.06830978 MB
-Calculation time is: 3283 seconds (0 hours 54 min. 43 sec.)
-Calculation finished successfully at 2026-02-28 15:00:19
+Peak memory (RAM) consumption is: 684.50781250 MB
+Used disk space is: 5147.02922821 MB
+Calculation time is: 3219 seconds (0 hours 53 min. 39 sec.)
+Calculation finished successfully at 2026-03-1 13:38:36

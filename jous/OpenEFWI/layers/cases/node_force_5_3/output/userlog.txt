@@ -137,7 +137,7 @@ create absorption on curve 22 34 46 58 70 82 94 106 102 10 6 97 99 87 75 63 51 3
 # create velocity on vertex 10 
 # create formula 1 'ricker(-1, 15, 0.033333, time)'
 # modify velocity 1 dof 2 formula 1
-create formula 9 'ricker(1, 15, 0.06666, time)'
+create formula 9 'ricker(1000000000, 15, 0.06666, time)'
 create force on vertex 10 type nodal
 modify force 1 dof 2 formula 9
 # create displacement on vertex 10 
@@ -153,7 +153,7 @@ calculation start path 'B:\\ELfimov\\Dissertation\\exps\\OpenEFWI\\cases\\node_f
 
 Available RAM is set to 100% (130909 Mb)
 Available CPU is set to 100% (12 threads)
-Calculation started at 2026-02-28 15:00:27
+Calculation started at 2026-03-1 13:38:41
 Using 12 CPU threads of 12 available.
 Step      1. Time 0.00003381. Time step 3.38054308e-05. Done. Successfully.
 Step      2. Time 0.00006761. Time step 3.38054308e-05. Done. Successfully.
@@ -29739,7 +29739,7 @@ Step  29581. Time 0.99999845. Time step 3.38054308e-05. Done. Successfully.
 Step  29582. Time 1.00000000. Time step 1.55139982e-06. Done. Successfully.
 Case 1. Done. Successfully.
 Calculation has finished successfully.
-Peak memory (RAM) consumption is: 685.64843750 MB
-Used disk space is: 5134.33586121 MB
-Calculation time is: 3367 seconds (0 hours 56 min. 7 sec.)
-Calculation finished successfully at 2026-02-28 15:56:34
+Peak memory (RAM) consumption is: 686.06640625 MB
+Used disk space is: 5142.27649307 MB
+Calculation time is: 3371 seconds (0 hours 56 min. 11 sec.)
+Calculation finished successfully at 2026-03-1 14:34:53
